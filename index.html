@@ -8,7 +8,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>KDB Digital Idea BIG BANG</title>
+  <title>KDB 디지털 아이디어 빅뱅</title>
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -23,7 +23,7 @@
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-bottom">
     <div class="container">
-      <a class="navbar-brand" href="#">기간: '19. 9. 4. ~ 11. 18.</a>
+      <a class="navbar-brand" href="#">'19. 9. 4. ~ 11. 18.</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -35,13 +35,13 @@
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
+            <a class="nav-link" href="#" data-toggle="modal" data-target="#aboutModal">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">More Info</a>
+            <a class="nav-link" href="#" data-toggle="modal" data-target="#moreInfoModal">More Info</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
+            <a class="nav-link" href="#" data-toggle="modal" data-target="#contactModal">Contact</a>
           </li>
         </ul>
       </div>
@@ -53,14 +53,76 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-6">
-          <img src="css/KDB_CI_SC_Kor-1.jpg" width="150px">
-          <h2 class="mt-5">KDB Digital Idea BIGBANG</h2>
-          <p>2019 제1회 KDB 디지털 아이디어 빅뱅</p>
+          <img src="img/KDB_CI_SC_Kor-1.jpg" width="150px">
+          <h2 class="mt-5">KDB 디지털 아이디어 빅뱅</h2>
+          <p>"KDB Digital Bank로 향하는 아이디어 대폭발"</p>
+          <div align="right"><i>(↓ 이미지 클릭 시 확대 - 팝업)</i></div>
           <!--<img src="css/Free-Concrete-Wall-Brand-Hanging-Poster-Mockup-PSD-Full-Preview.jpg" style="max-width: 100%; height: auto;">-->
-          <a href="css/Poster_2.png" target="_blank">
-            <img src="css/mockup_2.jpg" style="max-width: 100%; height: auto;">
+          <a href="img/Poster_2.png" target="_blank">
+            <img src="img/mockup_2_trim_proc.jpg" style="max-width: 100%; height: auto;">
           </a>
-          <p align="right">↑ 위 이미지 클릭 시 확대(팝업)</p>
+          <!-- 네비게이션 버튼 액션 정의 -->
+          <!-- Modal -->
+          <div class="modal fade" id="aboutModal" tabindex="-1" role="dialog" aria-labelledby="aboutModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="aboutModalLabel">About</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  About Text
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  <!--<button type="button" class="btn btn-primary">Save changes</button>-->
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal fade" id="moreInfoModal" tabindex="-1" role="dialog" aria-labelledby="moreInfoModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="moreInfoModalLabel">More Infomation</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  More Info Text
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  <!--<button type="button" class="btn btn-primary">Save changes</button>-->
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="contactModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="contactModalLabel">Contact</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  Contact Text
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  <!--<button type="button" class="btn btn-primary">Save changes</button>-->
+                </div>
+              </div>
+            </div>
+          </div>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          
         </div>
       </div>
     </div>
